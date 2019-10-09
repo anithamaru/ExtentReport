@@ -8,7 +8,9 @@ import com.relevantcodes.extentreports.LogStatus;
 public class ExtendDemo {
 static ExtentReports reports;
 static ExtentTest logger;
-	
+
+	//To make changes to find in git repo
+
 	public static void main(String[] args) {
 		String fileName=new SimpleDateFormat("'SampleDemo_'yyyyMMddHHmm'.html'").format(new Date());
 		
